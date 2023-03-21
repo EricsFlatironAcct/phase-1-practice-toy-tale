@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardLikes = document.createElement('p')
     const cardButton = document.createElement('button')
     cardH2.innerHTML = toy.name
-    console.log(toy.image)
     cardImg.src = toy.image
     cardImg.classList.add("toy-avatar")
     cardLikes.innerHTML = `${toy.likes} likes`
